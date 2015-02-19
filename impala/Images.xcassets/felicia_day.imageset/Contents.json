@@ -2,9 +2,21 @@
   "images" : [
     {
       "idiom" : "iphone",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "iphone",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "iphone",
       "filename" : "felicia_day-568h@2x.png",
       "subtype" : "retina4",
       "scale" : "2x"
+    },
+    {
+      "idiom" : "iphone",
+      "scale" : "3x"
     },
     {
       "idiom" : "ipad",

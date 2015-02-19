@@ -29,7 +29,7 @@ class DetailViewController: UIViewController, UIGestureRecognizerDelegate {
       pageControl.numberOfPages = collection.pieces.count
       
       for piece in collection.pieces {
-        images.append(UIImage(named: piece.image))
+        images.append(UIImage(named: piece.image)!)
       }
     }
   
@@ -72,19 +72,18 @@ class DetailViewController: UIViewController, UIGestureRecognizerDelegate {
   
   func swipeLeft() {
     println("Swipe left!")
-    if pageControl.currentPage > 0 {
-      pageControl.currentPage = pageControl.currentPage - 1
+    if pageControl.currentPage < detailItem!.pieces.count - 1 {
+      pageControl.currentPage = pageControl.currentPage + 1
       updateDetailUI()
     }
   }
   
   func swipeRight() {
     println("Swipe right!")
-    if pageControl.currentPage < detailItem!.pieces.count - 1 {
-      pageControl.currentPage = pageControl.currentPage + 1
+    if pageControl.currentPage > 0 {
+      pageControl.currentPage = pageControl.currentPage - 1
       updateDetailUI()
     }
-    
   }
   
   override func viewDidLoad() {
