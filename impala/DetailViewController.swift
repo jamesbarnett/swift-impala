@@ -29,6 +29,7 @@ class DetailViewController: UIViewController, UIGestureRecognizerDelegate {
       pageControl.numberOfPages = collection.pieces.count
       
       for piece in collection.pieces {
+        println("Image named: \(piece.image)")
         images.append(UIImage(named: piece.image)!)
       }
     }
