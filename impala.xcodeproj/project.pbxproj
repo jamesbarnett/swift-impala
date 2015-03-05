@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		254696F31A9CDAA0004D564D /* kristen_bell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 254696F21A9CDAA0004D564D /* kristen_bell@2x.png */; };
 		25FBFEB51A042D92007AC86E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FBFEB41A042D92007AC86E /* AppDelegate.swift */; };
 		25FBFEB71A042D92007AC86E /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FBFEB61A042D92007AC86E /* MasterViewController.swift */; };
 		25FBFEB91A042D92007AC86E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FBFEB81A042D92007AC86E /* DetailViewController.swift */; };
@@ -35,7 +34,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		254696F21A9CDAA0004D564D /* kristen_bell@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "kristen_bell@2x.png"; path = "../../../Downloads/kristen_bell@2x.png"; sourceTree = "<group>"; };
 		25FBFEAF1A042D92007AC86E /* impala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = impala.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25FBFEB31A042D92007AC86E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25FBFEB41A042D92007AC86E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -100,7 +98,6 @@
 				25FBFEB81A042D92007AC86E /* DetailViewController.swift */,
 				25FBFEBA1A042D92007AC86E /* Main.storyboard */,
 				25FBFEBD1A042D93007AC86E /* Images.xcassets */,
-				254696F21A9CDAA0004D564D /* kristen_bell@2x.png */,
 				25FBFEBF1A042D93007AC86E /* LaunchScreen.xib */,
 				25FBFEB21A042D92007AC86E /* Supporting Files */,
 				25FBFED61A043234007AC86E /* Catalog.swift */,
@@ -221,7 +218,6 @@
 			files = (
 				25FBFEBC1A042D92007AC86E /* Main.storyboard in Resources */,
 				25FBFEC11A042D93007AC86E /* LaunchScreen.xib in Resources */,
-				254696F31A9CDAA0004D564D /* kristen_bell@2x.png in Resources */,
 				25FBFEBE1A042D93007AC86E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
